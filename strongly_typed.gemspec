@@ -1,0 +1,41 @@
+# -*- encoding: utf-8 -*-
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'strongly_typed/version'
+
+Gem::Specification.new do |gem|
+
+  gem.platform      = Gem::Platform::RUBY
+  gem.name          = "strongly_typed"
+  gem.version       = StronglyTyped::VERSION
+  gem.summary       = %q{Simple type validation for plain ruby object attributes, performs conversions when possible.}
+  gem.description   = <<-DESC
+A simple type validation tool for plain ruby object attributes that performs conversions when possible.
+Similar to ruby-core Struct but i didn't like using inheritance for something more appropriate for mixins.
+Check virtus gem if you are looking for a full featured attributes settings for your Ruby Objects that requires complex automatic coercions among other things.
+If you are looking for a nestable, coercible, Hash-like data structure take a look at structure gem.
+DESC
+
+  gem.required_ruby_version     = '>= 1.9.3'
+  gem.required_rubygems_version = '>= 1.8.11'
+
+  gem.license       = 'MIT'
+
+  gem.authors       = ["Leo Gallucci"]
+  gem.email         = ["elgalu3@gmail.com"]
+  gem.homepage      = "https://github.com/elgalu/strongly_typed"
+
+  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.files         = `git ls-files`.split($/)
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.require_paths = ["lib"]
+
+  gem.add_runtime_dependency "boolean_class", "~> 0.0"
+
+  gem.add_development_dependency "rake", "~> 10.0"
+  gem.add_development_dependency "rspec", "~> 2.12"
+  gem.add_development_dependency "redcarpet", "~> 2.2"
+  gem.add_development_dependency "yard", "~> 0.8"
+  gem.add_development_dependency "simplecov", "~> 0.7"
+
+end
