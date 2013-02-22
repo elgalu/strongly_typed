@@ -8,13 +8,8 @@ Gem::Specification.new do |gem|
   gem.platform      = Gem::Platform::RUBY
   gem.name          = "strongly_typed"
   gem.version       = StronglyTyped::VERSION
-  gem.summary       = %q{Simple type validation for plain ruby object attributes, performs conversions when possible.}
-  gem.description   = <<-DESC
-A simple type validation tool for plain ruby object attributes that performs conversions when possible.
-Similar to ruby-core Struct but i didn't like using inheritance for something more appropriate for mixins.
-Check virtus gem if you are looking for a full featured attributes settings for your Ruby Objects that requires complex automatic coercions among other things.
-If you are looking for a nestable, coercible, Hash-like data structure take a look at structure gem.
-DESC
+  gem.summary       = %q{Simple type validation for plain ruby object attributes that perform conversions whenever possible.}
+  gem.description   = gem.summary
 
   gem.required_ruby_version     = '>= 1.9.3'
   gem.required_rubygems_version = '>= 1.8.11'

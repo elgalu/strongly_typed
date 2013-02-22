@@ -93,11 +93,15 @@ Check the [full API here][]
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-### TODO
-+ Improve generic TypeError to also show attribute name, expected type and value received instead
-+ On coercible.rb require gem 'double' to avoid requiring 'date' when user doesn't need that
+### TODO for StronglyTyped::Model
 + Add :default => 'value' to attribute() to support defaults
 + Add :required => true/false to attribute() so an ArgumentError is raised when not provided
+
+### TODO for StronglyTyped::Coercible
++ Extract coercer to another gem or use already existing coercion gem
++ Improve generic TypeError to also show attribute name, expected type and value received instead
++ On coercible.rb require gem 'double' to avoid requiring 'date' when user doesn't need that
++ Add support for BigDecimal
 
 
 [strongly_typed]: https://github.com/elgalu/strongly_typed
