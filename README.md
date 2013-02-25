@@ -1,8 +1,10 @@
 # StronglyTyped
 
-[![Build Status](https://travis-ci.org/elgalu/strongly_typed.png)](https://travis-ci.org/elgalu/strongly_typed)
-[![Dependency Status](https://gemnasium.com/elgalu/strongly_typed.png)](https://gemnasium.com/elgalu/strongly_typed)
-[![Code Climate](https://codeclimate.com/github/elgalu/strongly_typed.png)](https://codeclimate.com/github/elgalu/strongly_typed)
+[![Build Status][BS img]][Build Status]
+[![Dependency Status][DS img]][Dependency Status]
+[![Code Climate][CC img]][Code Climate]
+
+## Description
 
 This gem provides similar functionality as ruby core [Struct][] but instead of [inheritance][] i used [mixins][] and even wrote [something][blog on mixins] about my reasons to do so.
 
@@ -22,17 +24,7 @@ I took some ideas from others gems like [virtus][] and [structure][] but since n
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'strongly_typed'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install strongly_typed
+Add `gem 'strongly_typed'` to your [Gemfile][] then run [bundle install][] or simply `$ gem install strongly_typed`
 
 ## Usage
 
@@ -87,11 +79,12 @@ Check the [full API here][]
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+1. Fork it.
+2. Make your feature addition or bug fix and create your feature branch.
+3. Update the [Change Log][].
+3. Add specs/tests for it. This is important so I don't break it in a future version unintentionally.
+4. Commit, create a new Pull Request.
+5. Check that your pull request passes the [build][travis pull requests].
 
 ### TODO for StronglyTyped::Model
 + Add :default => 'value' to attribute() to support defaults
@@ -103,6 +96,32 @@ Check the [full API here][]
 + On coercible.rb require gem 'double' to avoid requiring 'date' when user doesn't need that
 + Add support for BigDecimal
 
+## License
+
+Released under the MIT License. See the [LICENSE][] file for further details.
+
+## Links
+
+[RubyGems][] | [Documentation][] | [Source][] | [Bugtracker][] | [Build Status][] | [Dependency Status][] | [Code Climate][]
+
+[bundle install]: http://gembundler.com/man/bundle-install.1.html
+[Gemfile]: http://gembundler.com/man/gemfile.5.html
+[LICENSE]: LICENSE.md
+[Change Log]: CHANGELOG.md
+
+[RubyGems]: https://rubygems.org/gems/strongly_typed
+[Documentation]: http://rubydoc.info/gems/strongly_typed
+[Source]: https://github.com/elgalu/strongly_typed
+[Bugtracker]: https://github.com/elgalu/strongly_typed/issues
+
+[BS img]: https://travis-ci.org/elgalu/strongly_typed.png
+[DS img]: https://gemnasium.com/elgalu/strongly_typed.png
+[CC img]: https://codeclimate.com/github/elgalu/strongly_typed.png
+
+[Build Status]: https://travis-ci.org/elgalu/strongly_typed
+[travis pull requests]: https://travis-ci.org/elgalu/strongly_typed/pull_requests
+[Dependency Status]: https://gemnasium.com/elgalu/strongly_typed
+[Code Climate]: https://codeclimate.com/github/elgalu/strongly_typed
 
 [strongly_typed]: https://github.com/elgalu/strongly_typed
 [full API here]: http://rubydoc.info/gems/strongly_typed/frames/file/README.md
