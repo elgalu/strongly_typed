@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency "boolean_class", "~> 0.0"
 
-  gem.add_development_dependency "bundler", "~> 1.3"
+  gem.add_development_dependency "bundler", ">= 1.2"
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec", "~> 2.13"
   gem.add_development_dependency "redcarpet", "~> 2.2"
