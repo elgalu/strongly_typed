@@ -1,4 +1,16 @@
-## [In git](https://github.com/elgalu/strongly_typed/compare/v0.0.1...HEAD)
+## [In git](https://github.com/elgalu/strongly_typed/compare/v0.0.2...HEAD)
+
+### New Features
+* n/a
+
+### Bugfixes
+* n/a
+
+### Chores
+* Updated boolean_class dependency so it is compatible from ruby 1.9.2 (Leo Gallucci)
+* Added gem version badge at README and coveralls gem & badge. (Leo Gallucci)
+
+## [v0.0.2](https://github.com/elgalu/strongly_typed/tree/v0.0.2)
 
 ### New Features
 * n/a
