@@ -1,8 +1,10 @@
 # StronglyTyped
 
+[![Gem Version][GV img]][Gem Version]
 [![Build Status][BS img]][Build Status]
 [![Dependency Status][DS img]][Dependency Status]
 [![Code Climate][CC img]][Code Climate]
+[![Coverage Status][CS img]][Coverage Status]
 
 ## Description
 
@@ -114,14 +116,18 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 [Source]: https://github.com/elgalu/strongly_typed
 [Bugtracker]: https://github.com/elgalu/strongly_typed/issues
 
-[BS img]: https://travis-ci.org/elgalu/strongly_typed.png
-[DS img]: https://gemnasium.com/elgalu/strongly_typed.png
-[CC img]: https://codeclimate.com/github/elgalu/strongly_typed.png
-
 [Build Status]: https://travis-ci.org/elgalu/strongly_typed
 [travis pull requests]: https://travis-ci.org/elgalu/strongly_typed/pull_requests
 [Dependency Status]: https://gemnasium.com/elgalu/strongly_typed
 [Code Climate]: https://codeclimate.com/github/elgalu/strongly_typed
+[Gem Version]: https://rubygems.org/gems/strongly_typed
+[Coverage Status]: https://coveralls.io/r/elgalu/strongly_typed
+
+[BS img]: https://travis-ci.org/elgalu/strongly_typed.png
+[DS img]: https://gemnasium.com/elgalu/strongly_typed.png
+[CC img]: https://codeclimate.com/github/elgalu/strongly_typed.png
+[GV img]: https://badge.fury.io/rb/strongly_typed.png
+[CS img]: https://coveralls.io/repos/elgalu/strongly_typed/badge.png?branch=master
 
 [strongly_typed]: https://github.com/elgalu/strongly_typed
 [full API here]: http://rubydoc.info/gems/strongly_typed/frames/file/README.md

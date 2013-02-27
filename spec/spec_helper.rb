@@ -1,5 +1,13 @@
-require 'strongly_typed'
 require 'simplecov'
+require 'coveralls'
+
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::SimpleCov::Formatter
+]
+SimpleCov.start
+
+require 'strongly_typed'
 
 # Require this file using `require "spec_helper"` within each of your specs
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
@@ -14,5 +22,3 @@ RSpec.configure do |config|
   # Make coerce() possible at the Example level
   config.include StronglyTyped::Coercible
 end
-
-SimpleCov.start
