@@ -115,18 +115,18 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 [Documentation]: http://rubydoc.info/gems/strongly_typed
 [Source]: https://github.com/elgalu/strongly_typed
 [Bugtracker]: https://github.com/elgalu/strongly_typed/issues
-
-[Build Status]: https://travis-ci.org/elgalu/strongly_typed
 [travis pull requests]: https://travis-ci.org/elgalu/strongly_typed/pull_requests
+
+[Gem Version]: https://rubygems.org/gems/strongly_typed
+[Build Status]: https://travis-ci.org/elgalu/strongly_typed
 [Dependency Status]: https://gemnasium.com/elgalu/strongly_typed
 [Code Climate]: https://codeclimate.com/github/elgalu/strongly_typed
-[Gem Version]: https://rubygems.org/gems/strongly_typed
 [Coverage Status]: https://coveralls.io/r/elgalu/strongly_typed
 
+[GV img]: https://badge.fury.io/rb/strongly_typed.png
 [BS img]: https://travis-ci.org/elgalu/strongly_typed.png
 [DS img]: https://gemnasium.com/elgalu/strongly_typed.png
 [CC img]: https://codeclimate.com/github/elgalu/strongly_typed.png
-[GV img]: https://badge.fury.io/rb/strongly_typed.png
 [CS img]: https://coveralls.io/repos/elgalu/strongly_typed/badge.png?branch=master
 
 [strongly_typed]: https://github.com/elgalu/strongly_typed
