@@ -22,7 +22,7 @@ If you are looking for a nestable, coercible, Hash-like data structure take a lo
 
 ## Reasons
 
-I took some ideas from others gems like [virtus][] and [structure][] but since none of them provided exactly what i needed then decided to create this gem for my sample gem project [dolarblue][] and the blog [post][blog on dolarblue] i wrote about it.
+I took some ideas from others gems like [virtus][] and [structure][] but since none of them provided exactly what i needed then decided to create this gem for [twitter_anonymous_client][] gem and the blog [post][blog on create gem] i wrote about it.
 
 ## Installation
 
@@ -132,8 +132,9 @@ Released under the MIT License. See the [LICENSE][] file for further details.
 [strongly_typed]: https://github.com/elgalu/strongly_typed
 [full API here]: http://rubydoc.info/gems/strongly_typed/frames/file/README.md
 [specs on conversions]: https://github.com/elgalu/strongly_typed/blob/master/spec/coercible_spec.rb
-[blog on dolarblue]: http://elgalu.github.com/2013/tools-for-creating-your-first-ruby-gem-dolarblue/
+[blog on create gem]: http://elgalu.github.com/2013/tools-for-creating-your-first-ruby-gem/
 [blog on mixins]: http://elgalu.github.com/2013/when-to-use-ruby-inheritance-versus-mixins/
+[twitter_anonymous_client]: https://github.com/elgalu/twitter_anonymous_client
 [named parameters]: http://en.wikipedia.org/wiki/Named_parameter
 [Struct]: http://www.ruby-doc.org/core-1.9.3/Struct.html
 [OpenStruct]: http://ruby-doc.org/stdlib-1.9.3/libdoc/ostruct/rdoc/OpenStruct.html
