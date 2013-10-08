@@ -29,7 +29,7 @@ If you are looking for a nestable, coercible, Hash-like data structure take a lo
 
 ## Reasons
 
-I took some ideas from others gems like [virtus][] and [structure][] but since none of them provided exactly what i needed then decided to create this gem for [twitter_anonymous_client][] gem and the blog [post][blog on create gem] i wrote about it.
+I took some ideas from others gems like [virtus][] and [structure][] but since none of them provided exactly what i needed then decided to create this gem for a now DEPRECATED [twitter_anonymous_client][] gem and the blog [post][blog on create gem] i wrote about it.
 
 ## Installation
 
