@@ -9,7 +9,7 @@
 
 ## Warning
 
-I highly recommend using [active_attr](https://github.com/cgriego/active_attr) to create plain old ruby models without reinventing the wheel.
+I highly recommend using [virtus][] or maybe [active_attr](https://github.com/cgriego/active_attr) to create plain old ruby models without reinventing the wheel.
 
 Consider this proof-of-concept gem **DEPRECATED**
 
